@@ -1,2 +1,3 @@
 # projects
-Single repository for all the projects
+
+This repository will have all the projects related to KK.
