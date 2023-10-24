@@ -1,0 +1,166 @@
+/*start*/
+@font-face {
+  font-family: 'PopB';
+  src: url('../fonts/DCC.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RobB';
+  src: url('../fonts/Roble.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'DanB';
+  src: url('../fonts/DancingScript-Bold.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Arial';
+  line-height: 25px;
+  font-size: 16px;
+  color: #333;
+  background: url(../img/bg1.jpg);
+  background-size: cover;
+}
+
+:root {
+  --BL: #050807;
+}
+
+/*start*/
+/*custom*/
+label {
+  font-weight: normal;
+  color: #666;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding: 0 15px;
+}
+
+.img_r {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ul_set {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  font-weight: normal;
+
+}
+
+
+/*custom*/
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.heading {
+	text-align: center;
+	margin-bottom: 25px;
+}
+.heading h1{
+  margin-bottom: 0;
+  font-size: 55px;
+  color: var(--BL);
+  font-family: "PopB";
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: 4px solid var(--BL);
+}
+.list_fip .ul_d1 {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.list_fip .ul_d1 h4 {
+	margin-bottom: 10px;
+	font-size: 24px;
+	
+  font-family: "RobB";
+}
+
+.list_fip .ul_d1 {
+  color: var(--BL);
+}
+
+.list_fip .ul_d1 p{
+  font-size: 25px;
+  font-family: "DanB";
+  margin-bottom: 0;
+}
+
+.list_fip .ul_d1 li {
+	display: flex;
+	justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.list_fip .ul_d1 li .left_us{
+  width: 100%;
+}
+
+.list_fip .ul_d1 li .riht_us{
+  width: 100px;
+  text-align: right;
+}
+
+.food{
+  padding: 40px 0;
+}
+.bt_lf {
+  background: #000;
+  padding: 30px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+.bt_lf .list_fip .ul_d1 {
+  color: #fff;
+}
+.logo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.logo img {
+  width: 340px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.7);
+}
+@media (max-width:767px) {
+  .list_fip .ul_d1 h4{
+    font-size: 4.6vw;
+    margin-bottom: 5px;
+  }
+  .list_fip .ul_d1 p{
+    font-size: 19px;
+    line-height: normal;
+  }
+  .bt_lf{
+    margin-left: 0;
+  }
+  .logo img{
+    width: 250px;
+  }
+  .heading h1{
+    
+    font-size: 40px;
+  }
+}

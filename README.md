@@ -1,3 +1,3 @@
 # projects
 
-This repository will have design / quotation to all the new potential clients.
+This is a sample design for a pub named http://publiq.in/ situated in Pune.
