@@ -6,3 +6,4 @@ Single repository for all the projects
 - SIMS GROUP
 - PubLiq
 - School-Project
+- Wedding planner
